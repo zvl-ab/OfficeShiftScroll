@@ -1,0 +1,23 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.pfx
+*.p12
+*.pem
+*.key
+*.log
+.env
+.env.*
+!.env.example
+# Publish source and helper scripts; keep signed binaries out of Git history.
+Output/App/
+Output/PackageHashes.json
+*.zip
+.dotnet-home/
+.nuget-appdata/
+_DevCertificate/
+ExcelShiftScroll_TemporaryKey.cer
+ExcelShiftScroll_TemporaryKey.inf
+ExcelShiftScroll_TemporaryKey.pfx
