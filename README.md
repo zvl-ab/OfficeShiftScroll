@@ -19,4 +19,4 @@ Windows 版 Microsoft 365 Office 插件原型。
 
 这种方式不注入键盘事件，不调用 `SendInput`，不维护定时器或滚动状态，因此横向滚动由 Office 自己处理。当前窗口识别使用 Excel 的 `XLMAIN` 和 `EXCEL7` 类名，Office 全产品兼容需要后续抽象窗口识别和按产品验证。
 
-项目目标：Windows 10/11、Office 365 64 位、Visual Studio 2022、C#、.NET Framework 4.8、x64。
+项目目标：Windows 10/11、Office 365 64 位、Visual Studio 2022、C#、.NET Framework 4.8、x64。\n发布包：请从 GitHub Releases 下载 OfficeShiftScroll-1.0.0-x64.zip，解压后运行 Install.cmd。源码仓库不再包含 Output 文件夹。\n
