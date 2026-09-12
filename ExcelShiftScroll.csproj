@@ -18,7 +18,7 @@
     <BootstrapperComponentsLocation>HomeSite</BootstrapperComponentsLocation>
     <ResolveComReferenceSilent>true</ResolveComReferenceSilent>
     <SignManifests>true</SignManifests>
-    <ManifestKeyFile>ExcelShiftScroll_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>.local\ExcelShiftScroll_TemporaryKey.pfx</ManifestKeyFile>
     <ManifestCertificateThumbprint>FB7789C3C7456A7E9B1CFDAB3638A066BA067FAC</ManifestCertificateThumbprint>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <LangVersion>latest</LangVersion>
