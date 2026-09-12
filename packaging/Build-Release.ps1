@@ -22,6 +22,7 @@ foreach ($file in @('Manage.ps1','Install.cmd','Uninstall.cmd','Check.cmd','READ
     Copy-Item -LiteralPath (Join-Path $PSScriptRoot $file) -Destination (Join-Path $package $file)
 }
 Copy-Item -LiteralPath (Join-Path $root 'CHANGELOG.md') -Destination (Join-Path $package 'CHANGELOG.md')
+Copy-Item -LiteralPath (Join-Path $root 'LICENSE') -Destination (Join-Path $package 'LICENSE')
 $hashes = @(Get-ChildItem -LiteralPath $app -Recurse -File | Sort-Object FullName | ForEach-Object {
     [pscustomobject]@{ Path=$_.FullName.Substring($package.Length + 1); SHA256=(Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash }
 })

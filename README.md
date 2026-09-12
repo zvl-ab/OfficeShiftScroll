@@ -44,3 +44,7 @@ Windows Microsoft 365 横向滚动插件原型，当前仅支持 **Excel 64 位*
 - artifacts、bin、obj、.vs：发布产物及缓存，Git 忽略。
 
 变更记录见 [CHANGELOG.md](CHANGELOG.md)。
+
+## 许可证
+
+本项目采用 [MIT License](LICENSE)，版权所有 © 2026 zvl-ab。第三方组件遵循各自的许可证。
